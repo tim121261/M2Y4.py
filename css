@@ -1,0 +1,41 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    25% {
+      color: rgb(0, 255, 64);
+    }
+  
+    50% {
+        color: rgb(255, 0, 0);
+      }
+    75% {
+        color: rgb(242, 0, 255);
+      }
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+body {
+    font-family: Inter,  sans-Inter; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */  
+    
+      
+    selector {
+        border: border-width border-style border-color;
+      }
+    
+}/* Семейство шрифтов */
+
+h1 { 
+    color: #000000; /* Цвет заголовка */
+    :hover { animation: color-change 3s infinite; }
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: Inter, Inter;}
