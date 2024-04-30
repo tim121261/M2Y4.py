@@ -28,14 +28,13 @@ body {
     color: #ffffff; /* Цвет основного текста */  
     
       
-    selector {
-        border: border-width border-style border-color;
+    
       }
     
-}/* Семейство шрифтов */
+/* Семейство шрифтов */
 
-h1 { 
+h2:hover { 
     color: #000000; /* Цвет заголовка */
-    :hover { animation: color-change 3s infinite; }
+      animation: color-change 3s infinite; 
     font-size: 20px; /* Размер шрифта в пунктах */
     font-family: Inter, Inter;}
